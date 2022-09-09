@@ -35,11 +35,11 @@ int main(void)
 					   putchar(' ');
 				   }
 				}
-				++digit3
+				++digit3;
 			}
-			++digit2
+			++digit2;
 		}
-		++digit1
+		++digit1;
 	}
 	putchar('\n');
 
