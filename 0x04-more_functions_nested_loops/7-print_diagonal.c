@@ -8,18 +8,19 @@
 
 void print_diagonal(int n)
 {
-	int postn, space;
+	int draw;
+	int space;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
+	if (n > 0)
 	{
-		for (postn = 1; postn <= n; ++postn)
+		for (draw = 1; draw <= n; draw++)
 		{
-			for (space = 1; space <= postn; ++space)
+			for (space = 1; space < draw; space++)
 				_putchar(' ');
-			_putchar(92); /*is equal to '/' char*/
+			_putchar('\\');
 			_putchar('\n');
 		}
 	}
+	else
+		_putchar('\n');
 }
