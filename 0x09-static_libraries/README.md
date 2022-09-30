@@ -1,1 +1,1 @@
-Static Libr
+Stat Libr
