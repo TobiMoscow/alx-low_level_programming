@@ -2,9 +2,7 @@
 
 /**
  * print_list - print elements in a linked list
- *
  * @h: pointer to head first node
- *
  * Return: Number of nodes
 */
 
@@ -30,7 +28,7 @@ size_t print_list(const list_t *h)
 		node_count += 1;
 	}
 
-	/ *print for the last node */
+	/* print for the last node */
 	printf("[%d] %s\n", h->len, h->str);
 
 	return (node_count);
